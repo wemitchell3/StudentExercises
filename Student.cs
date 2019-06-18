@@ -10,6 +10,6 @@ namespace StudentExercises
         public string LastName { get; set; }
         public string SlackHandle { get; set; }
         public Cohort Cohort { get; set; }
-        public List<Exercise> ListOfStudentExercises = new List<Exercise>();
+        public List<Exercise> ListOfStudentExercises { get; set; } = new List<Exercise>(); 
     }
 }
