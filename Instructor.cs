@@ -1,14 +1,7 @@
-using System;
-using System.Collections.Generic;
-
 namespace StudentExercises
 {
-    class Instructor
+    class Instructor : NSSPerson
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string SlackHandle { get; set; }
         public Cohort Cohort { get; set; }
         public string InstructorSpecialty { get; set; }
         public void AssignExercise(Student student, Exercise exercise)

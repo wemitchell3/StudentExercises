@@ -210,7 +210,7 @@ namespace StudentExercises
 
             foreach (Student student in Students.Where(student => student.ListOfStudentExercises.Count == 0))
             {
-                Console.WriteLine($"{student.FirstName} {student.LastName} is currently not working on any exercises");
+                Console.WriteLine($"{student.FirstName} {student.LastName} is currently NOT working on any exercises.");
             }
 
             Console.WriteLine("");
